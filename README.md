@@ -5,7 +5,7 @@
 1. **Prompt user by asking** “​What would you like? (espresso/latte/cappuccino):​”
 - a. Check the user’s input to decide what to do next.
 - b. The prompt should show every time action has completed,
-   E.g.
+  E.g.
 ```
 once the drink is dispensed. The prompt should show again to serve the next customer.
 ```
@@ -15,7 +15,7 @@ once the drink is dispensed. The prompt should show again to serve the next cust
 
 3. **Print report.**
 - a. When the user enters “report” to the prompt, a report should be generated that shows the current resource values.
-    E.g.
+  E.g.
   ```
   Water: 100ml
   Milk: 50ml
@@ -106,7 +106,7 @@ Money: $2.5
  “Sorry there is not enough water.”
 ```
 - c. The same should happen if another resource is depleted,
-  E.g.
+E.g.
   ```
   milk or coffee.
   ```
@@ -124,7 +124,7 @@ E.g.
  “Sorry that's not enough money. Money refunded.”.
 ```
 - b. But if the user has inserted enough money, then the cost of the drink gets added to the machine as the profit and this will be reflected the next time “report” is triggered.
-- E.g.
+E.g.
 ```
 Water: 100ml
 Milk: 50ml
